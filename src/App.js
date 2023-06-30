@@ -1,9 +1,11 @@
 import "./App.css";
+import Container from "./components/Container";
+import Data from "./components/Data";
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello world</h2>
+      <Container />
     </div>
   );
 }
