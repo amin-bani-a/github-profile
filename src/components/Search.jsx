@@ -16,6 +16,7 @@ const Search = ({ FetchHandler }) => {
   //     // Handle the error
   //   }
   // };
+
   return (
     <div className="bg-blue-500 text-6xl m-16 w-10/12 mx-auto relative">
       <input

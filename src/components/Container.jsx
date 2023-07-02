@@ -5,7 +5,6 @@ import Data from "./Data";
 import axios from "axios";
 
 const Container = () => {
-  console.log("tanazzzzz");
   const [data, setData] = useState({});
   const FetchHandler = async () => {
     try {
@@ -13,8 +12,7 @@ const Container = () => {
         "https://api.github.com/users/arghun-dev"
       );
       const result = await response.data;
-      console.log("result:", result);
-      console.log("result object", result.following);
+
       setData(result);
       // Do something with the response data
     } catch (error) {
